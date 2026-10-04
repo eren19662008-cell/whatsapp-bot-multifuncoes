@@ -18,9 +18,9 @@
   ],
   "license": "MIT",
   "engines": {
-    "node": "18.x",
-    "npm": "9.x"
-  },
+  "node": "20.x",
+  "npm": "10.x"
+},
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
     "axios": "^1.7.9",
