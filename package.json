@@ -1,7 +1,7 @@
 {
   "name": "whatsapp-bot-multifuncoes",
   "version": "1.0.0",
-  "description": "Bot multifunções para WhatsApp com brincadeiras, figurinhas, mídia, entretenimento e administração de grupos.",
+  "description": "Bot multifunções para WhatsApp com figurinhas, mídia, entretenimento, administração de grupos e IA integrada.",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -13,12 +13,14 @@
     "bot",
     "nodejs",
     "stickers",
-    "entertainment"
+    "entertainment",
+    "ai"
   ],
   "license": "MIT",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
     "axios": "^1.7.9",
+    "dotenv": "^16.4.5",
     "google-tts-api": "^2.0.2",
     "jimp": "^0.22.12",
     "pino": "^9.5.0",
