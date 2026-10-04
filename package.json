@@ -1,35 +1,20 @@
 {
   "name": "whatsapp-bot-multifuncoes",
   "version": "1.0.0",
-  "description": "Bot multifunções para WhatsApp com brincadeiras, figurinhas, mídia, entretenimento e administração de grupos.",
+  "description": "Bot WhatsApp com Baileys",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js"
   },
-  "keywords": [
-    "whatsapp",
-    "bot",
-    "nodejs",
-    "stickers",
-    "entertainment",
-    "ai"
-  ],
   "license": "MIT",
   "engines": {
-    "node": "20.x",
-    "npm": "10.x"
+    "node": "20.x"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.24",
-    "axios": "^1.7.9",
-    "dotenv": "^16.4.5",
-    "google-tts-api": "^2.0.2",
-    "jimp": "0.16.13",
-    "pino": "^9.5.0",
-    "qrcode-terminal": "^0.12.0",
-    "wa-sticker-formatter": "^4.4.4",
-    "yt-search": "^2.2.1"
+    "@whiskeysockets/baileys": "6.7.10",
+    "pino": "8.19.0",
+    "qrcode-terminal": "0.12.0"
   }
 }
